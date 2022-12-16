@@ -1,0 +1,12 @@
+.weekly-forecast-list {
+    display: flex;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(101,
+            93,
+            93);
+    background-color: rgb(176, 169, 185);
+}

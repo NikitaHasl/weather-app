@@ -1,0 +1,41 @@
+.forecast-card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    min-width: 700px;
+    height: inherit;
+    padding: 15px;
+}
+
+.forecast-card__date {
+    align-self: center;
+    justify-self: center;
+}
+
+.forecast-card__date h1 {
+    font-size: 60px;
+}
+
+.forecast-card__table table {
+    width: 100%;
+    height: 100%;
+
+}
+
+.forecast-card__table table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.forecast-card__table img {
+    width: 40px;
+    height: 40px;
+}
+
+.forecast-card__table td img {
+    width: 20px;
+    height: 20px;
+}
+
+.weekend {
+    color: rgb(175, 71, 71);
+}

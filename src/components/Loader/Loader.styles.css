@@ -1,0 +1,8 @@
+.loader {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(176, 169, 185);
+    overflow: hidden;
+}

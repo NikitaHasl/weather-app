@@ -1,7 +1,15 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    text-decoration: none;
+}
+
+.app {
+    font-family: "Rubik", sans-serif;
+    min-height: 100vh;
+    background-color: rgb(217, 214, 214);
 }

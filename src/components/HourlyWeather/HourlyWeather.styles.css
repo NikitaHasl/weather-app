@@ -1,0 +1,12 @@
+.hourly-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.hourly-item img {
+    width: 20px;
+    height: 20px;
+}

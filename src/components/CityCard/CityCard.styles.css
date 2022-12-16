@@ -1,0 +1,35 @@
+.city-card {
+    width: 130px;
+    height: 160px;
+    padding: 15px;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(101,
+            93,
+            93);
+    background-color: rgb(176, 169, 185);
+    cursor: pointer;
+    transition: transform .6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.city-card:hover {
+    transform: scale(1.2);
+}
+
+.city-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.city-card__temp {
+    font-size: 30px;
+}
+
+.city-card__city {
+    font-size: 15px;
+}
